@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="D:/java/naryanagroupwebsite">
+        <classes>
+<!--            <class name="narayanagroup.GROUP_WEBSITE">-->
+<!--                <methods>-->
+<!--                    <include name="testHomepageTitle"/>-->
+<!--                    <include name="EnquireNowschool"/>-->
+<!--                    <include name="homepage"/>-->
+<!--                    <include name="contactus"/>-->
+<!--                    <include name="ExperienceNarayana"/>-->
+<!--                    <include name="Digital"/>-->
+<!--                    <include name="Academics"/>-->
+<!--                    <include name="Uniforms"/>-->
+<!--                    <include name="nsports"/>-->
+<!--                    <include name="careers"/>-->
+<!--                    <include name="centres"/>-->
+<!--                    <include name="Blogs"/>-->
+<!--                    <include name="gallery"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+            <class name="narayanagroup.narayanacoaching_centre">
+                <methods>
+                    <include name="quick_contact"/>
+                    <include name="Contact_us"/>
+                    <include name="Home"/>
+                    <include name="aboutus"/>
+                    <include name="coursepage"/>
+                    <include name="jeecentres"/>
+                    <include name="nacst"/>
+                    <include name="LiveClasses"/>
+                    <include name="Blogs"/>
+                    <include name="results"/>
+                    <include name="neet_repeater"/>
+                    <include name="centers_from"/>
+                </methods>
+            </class>
+<!--            <class name="narayanagroup.narayanajrcollege">-->
+<!--                <methods>-->
+<!--                    <include name="enquiry_form"/>-->
+<!--                    <include name="homepage"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+        </classes>
+    </test>
+</suite>

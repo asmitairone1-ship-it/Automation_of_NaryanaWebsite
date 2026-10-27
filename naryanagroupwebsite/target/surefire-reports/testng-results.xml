@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="14" passed="9" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-06-25T12:42:22 IST" name="All Test Suite" finished-at="2026-06-25T12:48:37 IST" duration-ms="375593">
+    <groups>
+    </groups>
+    <test started-at="2026-06-25T12:42:22 IST" name="D:/java/naryanagroupwebsite" finished-at="2026-06-25T12:48:37 IST" duration-ms="375593">
+      <class name="narayanagroup.grouphomepage">
+        <test-method is-config="true" signature="openWebsite()[pri:0, instance:narayanagroup.grouphomepage@3c9d0b9d]" started-at="2026-06-25T12:42:22 IST" name="openWebsite" finished-at="2026-06-25T12:42:31 IST" duration-ms="8708" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWebsite -->
+        <test-method signature="EnquireNowschool()[pri:0, instance:narayanagroup.grouphomepage@3c9d0b9d]" started-at="2026-06-25T12:42:31 IST" name="EnquireNowschool" finished-at="2026-06-25T12:43:18 IST" duration-ms="47806" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnquireNowschool -->
+        <test-method is-config="true" signature="closeTab()[pri:0, instance:narayanagroup.grouphomepage@3c9d0b9d]" started-at="2026-06-25T12:43:18 IST" name="closeTab" finished-at="2026-06-25T12:43:19 IST" duration-ms="342" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTab -->
+        <test-method is-config="true" signature="openWebsite()[pri:0, instance:narayanagroup.grouphomepage@3c9d0b9d]" started-at="2026-06-25T12:43:19 IST" name="openWebsite" finished-at="2026-06-25T12:43:24 IST" duration-ms="5670" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWebsite -->
+        <test-method signature="homepage()[pri:0, instance:narayanagroup.grouphomepage@3c9d0b9d]" started-at="2026-06-25T12:43:24 IST" name="homepage" finished-at="2026-06-25T12:44:24 IST" duration-ms="59274" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for number of open windows to be 2 (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.115, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\PUNITK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53314}, goog:processID: 10224, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53314/devtoo..., se:cdpVersion: 149.0.7827.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c52007461976df8f53030a2d43b3299a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for number of open windows to be 2 (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.115, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\PUNITK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53314}, goog:processID: 10224, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53314/devtoo..., se:cdpVersion: 149.0.7827.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c52007461976df8f53030a2d43b3299a
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at narayanagroup.grouphomepage.homepage(grouphomepage.java:460)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepage -->
+        <test-method is-config="true" signature="closeTab()[pri:0, instance:narayanagroup.grouphomepage@3c9d0b9d]" started-at="2026-06-25T12:44:24 IST" name="closeTab" finished-at="2026-06-25T12:44:24 IST" duration-ms="311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTab -->
+        <test-method is-config="true" signature="openWebsite()[pri:0, instance:narayanagroup.grouphomepage@3c9d0b9d]" started-at="2026-06-25T12:44:24 IST" name="openWebsite" finished-at="2026-06-25T12:44:28 IST" duration-ms="4255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWebsite -->
+        <test-method signature="contactus()[pri:0, instance:narayanagroup.grouphomepage@3c9d0b9d]" started-at="2026-06-25T12:44:28 IST" name="contactus" finished-at="2026-06-25T12:44:53 IST" duration-ms="24908" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactus -->
+        <test-method is-config="true" signature="closeTab()[pri:0, instance:narayanagroup.grouphomepage@3c9d0b9d]" started-at="2026-06-25T12:44:53 IST" name="closeTab" finished-at="2026-06-25T12:44:54 IST" duration-ms="311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTab -->
+        <test-method is-config="true" signature="openWebsite()[pri:0, instance:narayanagroup.grouphomepage@3c9d0b9d]" started-at="2026-06-25T12:44:54 IST" name="openWebsite" finished-at="2026-06-25T12:45:01 IST" duration-ms="7344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWebsite -->
+        <test-method signature="ExperienceNarayana()[pri:0, instance:narayanagroup.grouphomepage@3c9d0b9d]" started-at="2026-06-25T12:45:01 IST" name="ExperienceNarayana" finished-at="2026-06-25T12:45:23 IST" duration-ms="22135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExperienceNarayana -->
+        <test-method is-config="true" signature="closeTab()[pri:0, instance:narayanagroup.grouphomepage@3c9d0b9d]" started-at="2026-06-25T12:45:23 IST" name="closeTab" finished-at="2026-06-25T12:45:23 IST" duration-ms="258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTab -->
+        <test-method is-config="true" signature="openWebsite()[pri:0, instance:narayanagroup.grouphomepage@3c9d0b9d]" started-at="2026-06-25T12:45:23 IST" name="openWebsite" finished-at="2026-06-25T12:45:31 IST" duration-ms="7486" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWebsite -->
+        <test-method signature="Digital()[pri:0, instance:narayanagroup.grouphomepage@3c9d0b9d]" started-at="2026-06-25T12:45:31 IST" name="Digital" finished-at="2026-06-25T12:45:46 IST" duration-ms="14763" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Digital -->
+        <test-method is-config="true" signature="closeTab()[pri:0, instance:narayanagroup.grouphomepage@3c9d0b9d]" started-at="2026-06-25T12:45:46 IST" name="closeTab" finished-at="2026-06-25T12:45:46 IST" duration-ms="325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTab -->
+        <test-method is-config="true" signature="openWebsite()[pri:0, instance:narayanagroup.grouphomepage@3c9d0b9d]" started-at="2026-06-25T12:45:46 IST" name="openWebsite" finished-at="2026-06-25T12:45:54 IST" duration-ms="8313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWebsite -->
+        <test-method signature="Academics()[pri:0, instance:narayanagroup.grouphomepage@3c9d0b9d]" started-at="2026-06-25T12:45:54 IST" name="Academics" finished-at="2026-06-25T12:46:46 IST" duration-ms="51662" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Academics -->
+        <test-method is-config="true" signature="closeTab()[pri:0, instance:narayanagroup.grouphomepage@3c9d0b9d]" started-at="2026-06-25T12:46:46 IST" name="closeTab" finished-at="2026-06-25T12:46:47 IST" duration-ms="762" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTab -->
+        <test-method is-config="true" signature="openWebsite()[pri:0, instance:narayanagroup.grouphomepage@3c9d0b9d]" started-at="2026-06-25T12:46:47 IST" name="openWebsite" finished-at="2026-06-25T12:46:54 IST" duration-ms="7729" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWebsite -->
+        <test-method signature="Uniforms()[pri:0, instance:narayanagroup.grouphomepage@3c9d0b9d]" started-at="2026-06-25T12:46:54 IST" name="Uniforms" finished-at="2026-06-25T12:47:28 IST" duration-ms="33497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Uniforms -->
+        <test-method is-config="true" signature="closeTab()[pri:0, instance:narayanagroup.grouphomepage@3c9d0b9d]" started-at="2026-06-25T12:47:28 IST" name="closeTab" finished-at="2026-06-25T12:47:28 IST" duration-ms="528" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTab -->
+        <test-method is-config="true" signature="openWebsite()[pri:0, instance:narayanagroup.grouphomepage@3c9d0b9d]" started-at="2026-06-25T12:47:28 IST" name="openWebsite" finished-at="2026-06-25T12:47:36 IST" duration-ms="7278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWebsite -->
+        <test-method signature="nsports()[pri:0, instance:narayanagroup.grouphomepage@3c9d0b9d]" started-at="2026-06-25T12:47:36 IST" name="nsports" finished-at="2026-06-25T12:47:38 IST" duration-ms="2400" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nsports -->
+        <test-method is-config="true" signature="closeTab()[pri:0, instance:narayanagroup.grouphomepage@3c9d0b9d]" started-at="2026-06-25T12:47:38 IST" name="closeTab" finished-at="2026-06-25T12:47:38 IST" duration-ms="250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTab -->
+        <test-method is-config="true" signature="openWebsite()[pri:0, instance:narayanagroup.grouphomepage@3c9d0b9d]" started-at="2026-06-25T12:47:38 IST" name="openWebsite" finished-at="2026-06-25T12:47:45 IST" duration-ms="7169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWebsite -->
+        <test-method signature="careers()[pri:0, instance:narayanagroup.grouphomepage@3c9d0b9d]" started-at="2026-06-25T12:47:45 IST" name="careers" finished-at="2026-06-25T12:47:52 IST" duration-ms="6911" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- careers -->
+        <test-method is-config="true" signature="closeTab()[pri:0, instance:narayanagroup.grouphomepage@3c9d0b9d]" started-at="2026-06-25T12:47:52 IST" name="closeTab" finished-at="2026-06-25T12:47:53 IST" duration-ms="345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTab -->
+        <test-method is-config="true" signature="openWebsite()[pri:0, instance:narayanagroup.grouphomepage@3c9d0b9d]" started-at="2026-06-25T12:47:53 IST" name="openWebsite" finished-at="2026-06-25T12:48:01 IST" duration-ms="8242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWebsite -->
+        <test-method signature="centres()[pri:0, instance:narayanagroup.grouphomepage@3c9d0b9d]" started-at="2026-06-25T12:48:01 IST" name="centres" finished-at="2026-06-25T12:48:08 IST" duration-ms="6646" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- centres -->
+        <test-method is-config="true" signature="closeTab()[pri:0, instance:narayanagroup.grouphomepage@3c9d0b9d]" started-at="2026-06-25T12:48:08 IST" name="closeTab" finished-at="2026-06-25T12:48:08 IST" duration-ms="304" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTab -->
+        <test-method is-config="true" signature="openWebsite()[pri:0, instance:narayanagroup.grouphomepage@3c9d0b9d]" started-at="2026-06-25T12:48:08 IST" name="openWebsite" finished-at="2026-06-25T12:48:16 IST" duration-ms="7803" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWebsite -->
+        <test-method signature="Blogs()[pri:0, instance:narayanagroup.grouphomepage@3c9d0b9d]" started-at="2026-06-25T12:48:16 IST" name="Blogs" finished-at="2026-06-25T12:48:37 IST" duration-ms="21452" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: (//span[contains(@class,'text-[#F68627]')])[2] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.115, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\PUNITK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58824}, goog:processID: 24076, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58824/devtoo..., se:cdpVersion: 149.0.7827.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5ff6badeafe7d281a9fd5b7c7011cdbc]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: (//span[contains(@class,'text-[#F68627]')])[2] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.115, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\PUNITK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58824}, goog:processID: 24076, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58824/devtoo..., se:cdpVersion: 149.0.7827.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5ff6badeafe7d281a9fd5b7c7011cdbc
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at narayanagroup.grouphomepage.Blogs(grouphomepage.java:766)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Blogs -->
+        <test-method is-config="true" signature="closeTab()[pri:0, instance:narayanagroup.grouphomepage@3c9d0b9d]" started-at="2026-06-25T12:48:37 IST" name="closeTab" finished-at="2026-06-25T12:48:37 IST" duration-ms="285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTab -->
+      </class> <!-- narayanagroup.grouphomepage -->
+    </test> <!-- D:/java/naryanagroupwebsite -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
