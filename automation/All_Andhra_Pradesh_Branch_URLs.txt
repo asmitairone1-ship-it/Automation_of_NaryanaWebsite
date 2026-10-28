@@ -1,0 +1,16 @@
+Narayana Schools - Andhra Pradesh
+All Branch URLs
+====================================
+
+1. About Us -> https://staging.narayanaschools.in/andhra-pradesh/about-us
+2. Infrastructure -> https://staging.narayanaschools.in/andhra-pradesh/infrastructure
+3. Digital Initiatives -> https://staging.narayanaschools.in/andhra-pradesh/new-intitiatives
+4. Academics -> https://staging.narayanaschools.in/andhra-pradesh/academics
+5.  -> https://staging.narayanaschools.in/andhra-pradesh/academics
+6. Explore More -> https://staging.narayanaschools.in/andhra-pradesh/disha
+7. e-Kidz -> https://staging.narayanaschools.in/andhra-pradesh/e-kidz
+8. e-Champs -> https://staging.narayanaschools.in/andhra-pradesh/e-champs
+9. e-Techno -> https://staging.narayanaschools.in/andhra-pradesh/e-techno
+10. Sr. Secondary -> https://staging.narayanaschools.in/andhra-pradesh/sr-secondary
+11. Admission Enquiry -> https://staging.narayanaschools.in/andhra-pradesh/admission-enquiry-form
+12. Contact us -> https://staging.narayanaschools.in/andhra-pradesh/contact
